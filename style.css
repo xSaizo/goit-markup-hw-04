@@ -212,7 +212,7 @@ address a:focus, {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(./images/hero-background-image.jpg) #2f303a66;
+  background: url("./images/hero-background-image.jpg") #2f303a66;
   background-size: cover;
   margin-block-end: 0;
 }
