@@ -27,12 +27,12 @@ ul {
 .section > div {
   padding: 94px 215px 94px 215px;
 }
-.section li+li{
+.section li + li {
   margin-left: 30px;
 }
 .section ul {
   display: flex;
-  padding-inline-start: 0; 
+  padding-inline-start: 0;
 }
 .container {
   max-width: 1600px;
@@ -41,14 +41,12 @@ ul {
 
 /* Header Section Styles */
 
-
 .header-studio .container {
   display: flex;
   background-color: #ffffff;
-
 }
 .header-studio ul {
-display: flex;
+  display: flex;
 }
 .webstudio-logo {
   margin-left: 215px;
@@ -73,7 +71,7 @@ display: flex;
 }
 .nav-links {
   padding-inline-start: 0;
-margin-left: 93px;
+  margin-left: 93px;
 }
 
 .header-adress a {
@@ -92,19 +90,20 @@ margin-left: 93px;
   width: 10px;
   height: 16px;
 }
-.header-adress .header-icons {
+.header-adress .header-icons svg {
+  margin-right: 10px;
+}
+.header-icons a {
   display: flex;
   align-items: center;
-  gap: 10px;
-
 }
-.nav-links li+li {
+.nav-links li + li {
   margin-left: 50px;
 }
 .header-adress li + li {
   margin-left: 40px;
 }
-.header-adress{
+.header-adress {
   padding-inline-start: 0;
   margin-left: 330px;
 }
@@ -112,11 +111,8 @@ margin-left: 93px;
 .nav-links a:hover,
 .nav-links a:focus,
 .header-adress a:hover,
-.header-adress a:focus,
-.header-adress .header-icons .tel-icon:hover,
-.header-adress .header-icons .tel-icon:focus,
-.header-adress .header-icons .mail-icon:hover,
-.header-adress .header-icons .mail-icon:focus {
+.header-adress a:focus {
+  cursor: pointer;
   color: #2196f3;
 }
 /* Footer Section Styles */
@@ -132,11 +128,11 @@ margin-left: 93px;
 .web-footer {
   color: #2196f3;
 }
-.footer-section{
+.footer-section {
   background: #2f303a;
 }
 .footer-section > div {
-  padding-top: 60px ;
+  padding-top: 60px;
   padding-left: 215px;
   padding-bottom: 60px;
 }
@@ -164,17 +160,16 @@ address a {
   display: flex;
   gap: 94px;
   align-items: center;
-  
 }
-.social-links-footer{
+.social-links-footer {
   display: flex;
   flex-direction: column;
 }
 .social-links-footer h4 {
   margin-block-start: 0;
   margin-block-end: 0;
-  color: #FFFFFF;
-  margin-bottom: 32px
+  color: #ffffff;
+  margin-bottom: 32px;
 }
 .social-links-footer .social-links-icons {
   display: flex;
@@ -182,27 +177,29 @@ address a {
   gap: 10px;
 }
 .social-links-footer .social-links-icons .icon svg {
-height: 20px;
-width: 20px;
-color: #FFFFFF;
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
 }
 .social-links-footer .social-links-icons .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:#FFFFFF1a;
+  background: #ffffff1a;
   width: 44px;
   height: 44px;
   border-radius: 100px;
 }
 
 address a:hover,
-address a:focus, {
+address a:focus {
+  cursor: pointer;
   color: #2196f3;
 }
-.social-links-footer .social-links-icons .icon:focus ,
+.social-links-footer .social-links-icons .icon:focus,
 .social-links-footer .social-links-icons .icon:hover {
-  background:#2196f3;
+  cursor: pointer;
+  background: #2196f3;
 }
 
 /* INDEX.HTLM PAGE Styles */
@@ -217,7 +214,7 @@ address a:focus, {
   margin-block-end: 0;
 }
 .hero-section h1 {
-  padding-top: 200px ;
+  padding-top: 200px;
   padding-left: 452px;
   padding-right: 452px;
   margin-block-end: 0;
@@ -229,7 +226,6 @@ address a:focus, {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-
 }
 .hero-section .button {
   margin: 30px 700px 200px 700px;
@@ -243,7 +239,6 @@ address a:focus, {
   width: 200px;
   height: 50px;
   box-shadow: 0px 4px 4px #00000026;
-  margin
 }
 /* Ability Section Styles */
 .ability-section div {
@@ -263,9 +258,8 @@ address a:focus, {
   margin-block-start: 0;
 }
 .ability-section svg {
- width: 70px;
+  width: 70px;
   height: 70px;
-  
 }
 .ability-section .div-icon {
   display: flex;
@@ -273,12 +267,10 @@ address a:focus, {
   align-items: center;
   width: 270px;
   height: 120px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
 }
-
-
 
 /* "What we do" Section Styles */
 .what-we-do-section h2 {
@@ -294,14 +286,13 @@ address a:focus, {
   font-size: 36px;
   line-height: 1.86;
   margin-left: 503px;
-  
 }
 .our-team-section h4 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.84;
   text-align: center;
-margin-block-start: 0;
+  margin-block-start: 0;
   margin-block-end: 0;
   padding-top: 20px;
 }
@@ -315,23 +306,22 @@ margin-block-start: 0;
 .our-team-section li {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
+  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
+    0px 2px 1px #00000033;
 }
 .card-social-link {
   display: flex;
   justify-content: center;
-  gap:10px;
-  padding-top:16px;
+  gap: 10px;
+  padding-top: 16px;
   padding-bottom: 30px;
-  
 }
 .card-social-link svg {
-
   width: 20px;
   height: 20px;
 }
 .card-social-link a {
-  color: #AFB1B8;
+  color: #afb1b8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -341,8 +331,9 @@ box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
 }
 .card-social-link a:hover,
 .card-social-link a:focus {
-   color: #FFFFFF;
-  background: #2196F3;
+  cursor: pointer;
+  color: #ffffff;
+  background: #2196f3;
 }
 
 /* Regular Curstomers Section Styles */
@@ -353,36 +344,35 @@ box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
 }
 
 .regular-customers-section h2 {
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 .regular-customers-section .container ul li {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 170px;
-height: 92px;
-border: 1px solid #AFB1B8;
-border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .regular-customers-section .container ul {
   display: flex;
   justify-content: center;
   gap: 30px;
   margin-top: 50px;
-  color:#AFB1B8;
+  color: #afb1b8;
 }
-.regular-customers-section svg{
+.regular-customers-section svg {
   width: 106px;
   height: 60px;
 }
 .regular-customers-section .container ul li:hover,
 .regular-customers-section .container ul li:focus {
-
-  color: #2196F3;
-  border: 1px solid #2196F3;
+  cursor: pointer;
+  color: #2196f3;
+  border: 1px solid #2196f3;
 }
 /* PORTFOLIO PAGE Styles*/
 
@@ -398,7 +388,7 @@ border-radius: 4px;
   padding: 6px 22px 6px 22px;
   border-radius: 4px;
 }
-.portfolio-buttons{
+.portfolio-buttons {
   display: flex;
   justify-content: center;
   margin-left: 542px;
@@ -407,11 +397,12 @@ border-radius: 4px;
   margin-bottom: 20px;
   padding-inline-start: 0px;
 }
-.portfolio-buttons li+li {
+.portfolio-buttons li + li {
   margin-left: 8px;
 }
 .portfolio-buttons button:hover,
 .portfolio-buttons button:focus {
+  cursor: pointer;
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
@@ -431,9 +422,8 @@ border-radius: 4px;
 .all-filters li {
   margin-left: 30px;
   margin-top: 30px;
-  
 }
-.all-filters{
+.all-filters {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -446,7 +436,7 @@ border-radius: 4px;
   padding-bottom: 94px;
 }
 .all-filters li {
- border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
 
 .all-filters li:nth-child(3n + 1) {
@@ -455,5 +445,7 @@ border-radius: 4px;
 
 .all-filters li:hover,
 .all-filters li:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
